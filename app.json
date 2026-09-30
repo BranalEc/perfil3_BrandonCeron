@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Catalogo Brandon Ceron",
+    "slug": "catalogo-brandon-ceron",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/master-ball-icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.brandonceron.perfil3",
+      "adaptiveIcon": {
+        "backgroundColor": "#087E8B",
+        "foregroundImage": "./assets/master-ball-icon.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/master-ball-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#087E8B"
+        }
+      ]
+    ]
+  }
+}
