@@ -16,7 +16,7 @@ export default function HomeScreen({ navigation }) {
       contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + spacing.lg }]}
     >
       <View style={styles.heroMark}>
-        <Text style={styles.heroMarkText}>BC</Text>
+        <Text style={styles.heroMarkText}>BA</Text>
       </View>
       <Text style={styles.eyebrow}>MI PERFIL</Text>
 
